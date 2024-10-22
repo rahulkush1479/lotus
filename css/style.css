@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* .mainbbox {
+    width: 100svw;
+    height: 100svh;
+    background-color: #fff;
+    background-image: url(/image/6pIkbEsTXpIkbEsTt7w\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.dfdf{
+    object-fit: cover;
+    width: 100svw;
+    height: 100svh;
+}
+
+.posi {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+}
+
+.disflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.w400 {
+    width: 400px;
+    height: 100px;
+}
+.w300 {
+    width: 300px;
+    height: 100px;
+}
+
+.firstpera {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.main {
+    width: 350px;
+    height: 300px;
+}
+
+.whats {
+    width: 50%;
+    animation: twirk 0.7s ease-in-out infinite;
+}
+
+@keyframes twirk {
+    0% {
+        background-position: 0% 50%;
+        transform: skewY(2deg);
+    }
+
+    50% {
+        background-position: 100% 50%;
+        transform: skewY(-2deg);
+    }
+
+    100% {
+        background-position: 0% 50%;
+        transform: skewY(2deg);
+    }
+}
+
+@media (max-width:992px){
+
+    .w400 {
+        width: 300px;
+        height: 90px;
+    }
+    .w300 {
+        width: 250px;
+        height: 80px;
+    }
+}
+
+.whaticon{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+.whaticon img{
+    width: 50px;
+    height: 50px;
+}
